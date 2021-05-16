@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animación</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    
+    <script src="js/node_modules/animejs/lib/anime.min.js"></script>
+    <script src="js/animaciones.js"></script>
+</head>}
+<body >
+<section>
+    <h4></h4>
+</section>
+<section class="instrucciones ">
+    <div id="mostrar1" class="container-lg p-0 m-auto position-absolute top-50 start-50 translate-middle mostrar bg-gristenue">
+        <div class="row justify-content-center m-0 w-100">
+            <div class="col-md-12">
+                <div class=" text-center pt-2 px-5 d-flex align-items-center">
+                    <div class="col-3"></div>
+                    <h1 class="col-sm-5 text-dark fw-bold wid">INSTRUCCIONES</h1>
+                    <div class="col-2"></div>
+                    <button type="button" class="col-2 d-block btn" onclick="cerrar()"><label class="nav-link btn fs-4">Continuar</label></button>
+                </div>
+                <hr>
+            </div>
+            <div class="text-center pt-2 px-5 d-flex align-items-center">
+                <div class="col-md-6">
+                    <div class=" mx-sm-4 pt-2 px-4">
+                        <h1 class="btn boton2 w-100 fs-6 fw-bold">Una velocidad negativa como resultado significa cambio en la dirección del movimiento graficado</h1>
+                    </div>
+                    <div class=" mx-sm-4 pt-2 px-4">
+                        <h1 class="btn boton2 w-100 fs-4 fw-bold">v1 es la velocidad del evento respecto al marco 1</h1>
+                    </div>
+                    <div class=" mx-sm-4 pt-2 px-4">
+                        <h1 class="btn boton2 w-100 fs-4 fw-bold">v2 es la velocidad del evento respecto al marco 2</h1>
+                    </div>
+                    <div class=" mx-sm-4 pt-2 px-4">
+                        <h1 class="btn boton2 w-100 fs-4 fw-bold">v es la velocidad entre los marcos</h1>
+                    </div>
+                    <hr>
+                </div>
+                <div class="col-md-6">
+                    <div class=" mx-sm-4 pt-2 px-4">
+                        <h1 class="btn boton2 w-100 fs-4 fw-bold">Favor de no repetir parametros</h1>
+                    </div>
+                    <div class=" mx-sm-4 pt-2 px-4">
+                        <h1 class="btn boton2 w-100 fw-bold">Para la velocidad que se desee encontrar escribir: <span class="fs-3"> ask </span> en el campo</h1>
+                    </div>
+                    <div class=" mx-sm-4 pt-2 px-4">
+                        <h1 class="btn boton2 w-100 fw-bold">Para las velocidades ingresar valores entre -1 y 1</h1>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+<div id="visual" class="container-fluid mostrar">
+    
+    <div id="nave" class="letter text-center pb-0 pt-0">
+
+        <img src="objetos/nave.png" alt="nave espacial"  class="w-100">
+        <span id="mobil" class="text-center bg-lab pb-0 fs-2"></span>
+
+    </div>
+    <div id="nave2" class="letter text-center pb-0 pt-0">
+
+        <img src="objetos/nave.png" alt="nave espacial"  class="w-100">
+        <span id="mobil" class="text-center bg-lab pb-0 fs-2"></span>
+
+    </div>
+    <div id="planeta" class=" text-center pb-0">
+    
+        <span id="label1" class="text-center bg-lab fs-2">MARCO1</span>
+        <img src="objetos/planeta.png" alt="planeta tierra"  class="w-100">
+    
+    </div> 
+    <div id="objeto" class=" text-center pb-0 pt-0">
+    
+        <img src="objetos/objeto.png" alt="objeto"  class="w-100">
+        <span id="piedra" class="text-center bg-lab fs-2"></span>
+    
+    </div> 
+    <div id="objeto2" class=" text-center pb-0 pt-0">
+    
+        <img src="objetos/objeto.png" alt="objeto"  class="w-100">
+        <span id="piedra" class="text-center bg-lab fs-2"></span>
+    
+    </div>
+    
+</div>
+</section>
+
+
+
+</body>
+<script type="text/javascript" src="js/velocidad.js"></script>
+<script type="text/javascript" src="js/functions.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript" src="https://www.hostmath.com/Math/MathJax.js?config=OK"></script>
