@@ -1,0 +1,115 @@
+
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+#planeta{
+    width: 30%;
+    position: absolute;
+    left: 36%;
+    top: 13%;
+    z-index: 2;
+}
+#mostrar1{
+    visibility: visible;
+    z-index: 4;
+}
+#mostrar2{
+    visibility: hidden;
+    z-index: 0;
+}
+#formulav1{
+    visibility: hidden;   
+}
+#formulav2{
+    visibility: hidden;   
+}
+#verresul{
+    visibility: hidden;
+}
+#mobil{
+    visibility: hidden;
+}
+#piedra{
+    visibility: hidden;
+}
+#nave{
+    width: 15%;
+    position: absolute;
+    top: 300px;
+    left: 200px;
+    z-index: 3;
+    visibility: visible;
+
+}
+#nave2{
+    
+    position: absolute;
+    width: 14.7%;
+    top: 300px;
+    left: 1050px;
+    z-index: 1;
+}
+.bg-lab{
+    background-color: rgba(65, 63, 63, 0.801);
+    color: white;
+    border-radius: 10px;
+    padding: 3%;
+}
+.z-4{
+    z-index: 4;
+}
+#label1{
+    visibility: hidden;
+}
+.mostrar2{
+    z-index: 2;
+}
+.mostrar1{
+    z-index: 1;
+}
+.top-75{
+    
+    top: 75%!important;
+}
+.top-40{
+    top: 42%!important;
+}
+.start-20{
+    right: 26%!important;
+}
+#objeto{
+    position: absolute;
+    width: 7.5%;
+    top: 45%;
+    left: 78%;
+    z-index: 1;
+}
+#objeto2{
+    width: 7.5%;
+    position: absolute;
+    top: 300px;
+    left: 200px;
+    z-index: 3;
+
+}
+.w-10{
+    width: 10%;
+}
+.bg-gristenue{
+    background-color: rgba(196, 191, 191, 0.397);
+    border-radius: 10px;
+}
+.bg-negropaco{
+    background-color: rgba(0, 0, 0, 0.747);
+}
+.boton{
+    background-color: rgba(255, 253, 253, 0.623);
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.5s;
+}
+.boton:hover{
+    background-color: rgba(192, 191, 191, 0.651); 
+}
